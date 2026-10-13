@@ -106,3 +106,4 @@ All fields are required. `positions` must be a whole number that is 0 or greater
 - **PowerShell blocks activation**: run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned`, then activate again.
 - **Port 5000 already in use**: change the last line of `app.py` to `app.run(debug=True, port=5001)`.
 - **Reset the data**: stop the app and delete the `instance/opportunities.db` file.
+# research__portal
